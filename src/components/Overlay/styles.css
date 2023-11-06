@@ -1,0 +1,25 @@
+.overlay{
+    width:350px;
+    height:250px;
+    border-radius: 2rem;
+    position: relative;
+    background-color: #E5E5E5;
+    top:-70px ;
+    z-index: 99;
+    margin: auto;
+  
+}
+.overlay-content{
+    display: flex;
+    flex-direction: column;
+    padding:1rem;
+}
+.overlay-content span{
+   text-align: right;
+   color:#275E96;
+   cursor: pointer;
+}
+.overlay-content p{
+    color:#275E96;
+    font-weight: 500;
+ }

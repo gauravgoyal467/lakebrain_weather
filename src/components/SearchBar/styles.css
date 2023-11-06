@@ -1,0 +1,33 @@
+.search{
+    display:flex;
+    align-items: center;
+    padding:1rem;
+    justify-content: center;
+    margin:5rem auto;
+}
+.search input{
+    color:white;
+    background-color:#8A44D5;
+    outline: none;
+    padding:1rem;
+    font-size: 1.2rem;
+    min-width: 400px;
+    border:none;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+.search input::placeholder{
+    color:white;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.search span{
+    background-color: #8A44D5;
+    color:white;
+    font-size: 1.7rem;
+    font-weight: 600;
+    padding:0.85rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    cursor: pointer;
+}
